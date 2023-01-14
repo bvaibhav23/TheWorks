@@ -3,11 +3,15 @@
 }
 .container {
   background-color: rgb(222, 162, 162);
-  color: rgb(59, 1, 59);
+  color: rgb(53, 6, 98);
   box-shadow: 0.1rem 0.1rem !important;
 }
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
+  * {
+    font-size: 0.99rem;
+  }
+
   img {
     height: auto !important;
     width: 90px !important;
@@ -18,7 +22,11 @@
 }
 
 /* For Tablet View */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  * {
+    font-size: 0.9rem;
+  }
+
   img {
     height: auto !important;
     width: 60px !important;
@@ -28,8 +36,17 @@
   }
 }
 
-/* For Mobile Portrait View */
+/* For Mobile  View */
 @media screen and (max-device-width: 480px) {
+  * {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  /* figcaption {
+    padding-left: 0px !important;
+  } */
   .container {
     width: 100%;
   }
