@@ -6,3 +6,6 @@
 * Bootstrap5
 * Icons (www.iconfinder.com)
 * Icon size ompimisation (www.compress-or-die.com)
+# Implementation and Challenges 
+  Used the Bootstrap Grid to implement the structure of the page.
+  Used media-query for Moible Tablet and Web View.
